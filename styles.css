@@ -72,13 +72,13 @@ button:hover {
 
 /*Button styling end*/
 
-h2 {
+h1 {
 	font-weight: 900;
 	font-size: 30px;
 	color: hsl(223, 47%, 23%);
 }
 
-h2,
+h1,
 .plan-info {
 	text-align: center;
 }
