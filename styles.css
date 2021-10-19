@@ -15,7 +15,7 @@ button:hover {
 }
 
 .proceed-button {
-    padding: 15px 97px;
+    padding: 12px 97px;
     display: block;
     margin: auto;
     border: solid #1E20CD;
@@ -23,12 +23,13 @@ button:hover {
     background-color: #1E20CD;
     color: white;
     font-size: 16px;
-   
+   font-weight: bold;
+   box-shadow: 2px 15px 30px rgb(187, 187, 189);
 }
 
 .proceed-button:hover {
-    background-color: purple;
-    border: solid purple;
+    background-color: #8069ff;
+    border: solid #8069ff;
 }
 
 .cancel-button {
@@ -37,8 +38,8 @@ button:hover {
     display: block;
     margin: auto;
     color: hsl(224, 23%, 55%);
-    font-weight: bold;
-    font-size: 16px;
+    font-weight: 900;
+    font-size: 14px;
 }
 
 .cancel-button:hover {
@@ -61,6 +62,7 @@ h2, .plan-info {
     border-radius: 25px;
     display: block;
     margin: auto;
+    box-shadow: 2px 10px 25px hsl(223, 54%, 81%);
 }
 
 .dancer-image {
@@ -98,15 +100,15 @@ h2, .plan-info {
     top: 34px;
     border: none;
     background: none;
-    font-weight: bold;
+    font-weight: 900;
     font-size: 13px;
     text-decoration: underline;
-    color: #1E20CD;;
+    color: #1E20CD;
 }
 
 .change-button:hover {
     text-decoration: none;
-    color: #CD7DF3;
+    color: #8069ff;
 }
 
 .plan-text {
