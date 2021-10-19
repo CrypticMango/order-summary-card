@@ -15,7 +15,7 @@ button:hover {
 }
 
 .proceed-button {
-    padding: 15px 110px;
+    padding: 15px 97px;
     display: block;
     margin: auto;
     border: solid #1E20CD;
@@ -24,6 +24,11 @@ button:hover {
     color: white;
     font-size: 16px;
    
+}
+
+.proceed-button:hover {
+    background-color: purple;
+    border: solid purple;
 }
 
 .cancel-button {
@@ -36,10 +41,14 @@ button:hover {
     font-size: 16px;
 }
 
+.cancel-button:hover {
+    color: hsl(223, 47%, 23%);
+}
+
 h2 {
     font-weight: 900;
     font-size: 30px;
-    color: hsl(223, 47%, 23%)
+    color: hsl(223, 47%, 23%);
 }
 
 h2, .plan-info {
@@ -49,7 +58,6 @@ h2, .plan-info {
 .full-card {
     background: white;
     width: 450px;
-    height: 700px;
     border-radius: 25px;
     display: block;
     margin: auto;
@@ -66,7 +74,7 @@ h2, .plan-info {
 
 .annual-plan {
     width: 350px;
-    height: 100px;
+    height: 90px;
     background: hsl(225, 100%, 98%);
     display: block;
     margin: auto;
@@ -78,5 +86,40 @@ h2, .plan-info {
     justify-content: center;
 }
 
+.music-dot {
+   position: relative;
+   left: -50px;
+   top: 20px;
+}
 
+.change-button {
+    position: relative;
+    left: 60px;
+    top: 34px;
+    border: none;
+    background: none;
+    font-weight: bold;
+    font-size: 13px;
+    text-decoration: underline;
+    color: #1E20CD;;
+}
 
+.change-button:hover {
+    text-decoration: none;
+    color: #CD7DF3;
+}
+
+.plan-text {
+    font-weight: bold;
+    color: hsl(223, 47%, 23%);
+}
+
+.price {
+    color: hsl(224, 23%, 55%);
+}
+
+.plan-block {
+    position: relative;
+    top: 26px;
+    left: -30px;
+}
