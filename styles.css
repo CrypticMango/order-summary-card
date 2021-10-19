@@ -1,6 +1,12 @@
 body {
     font-family: 'Red Hat Display', sans-serif;
     background-image: url("images/pattern-background-desktop.svg");
+    background-color: #E0E8FF;
     background-repeat:no-repeat !important;
     width: 1440px;
+    
+}
+
+.full-card {
+    margin: auto;
 }
