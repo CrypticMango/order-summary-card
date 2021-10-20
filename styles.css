@@ -144,10 +144,12 @@ h1,
 .plan-text {
 	font-weight: bold;
 	color: hsl(223, 47%, 23%);
+	margin: 0px;
 }
 
 .price {
 	color: hsl(224, 23%, 55%);
+	margin: 0px;
 }
 
 .plan-block {
