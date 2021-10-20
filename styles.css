@@ -5,7 +5,23 @@ body {
     background-size: contain;
 	background-color: #e0e8ff;
 	background-repeat: no-repeat !important;
+	align-items: center;
+	display: flex;
+	flex-direction: column; /*# default is row, we set it to column on this markup*/
+	justify-content: center;
+	margin: 0; /*# body has default of 8 margin, reset it to 0*/
+	min-height: 100vh; /*# make sure that body has enough height*/ 
 }
+
+html {
+	box-sizing: border-box;
+	font-size: 100%;
+  }
+  *,
+  *::before,
+  *::after {
+	box-sizing: inherit;
+  }
 
 button {
 	font-family: "Red Hat Display", sans-serif;
@@ -78,21 +94,28 @@ h1 {
 	color: hsl(223, 47%, 23%);
 }
 
+h2 {
+	font-size: 16px;
+}
+
 h1,
 .plan-info {
 	text-align: center;
+	margin: 14px;
 }
 
 .full-card {
 	background: white;
-	width: 450px;
 	border-radius: 25px;
 	box-shadow: 2px 10px 25px hsl(223, 54%, 81%);
 	margin: auto;
+	max-width: 450px
 }
 
 .dancer-image {
 	border-radius: 25px 25px 0px 0px;
+	display: block;
+	width: 100%;
 }
 
 .plan-info {
@@ -101,8 +124,8 @@ h1,
 }
 
 .annual-plan {
-	width: 350px;
-	height: 90px;
+	margin: 24px 0px;
+	padding: 20px;
 	background: hsl(225, 100%, 98%);
 	border-radius: 10px;
 }
