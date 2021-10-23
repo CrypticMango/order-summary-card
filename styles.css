@@ -55,6 +55,8 @@ button:hover {
 	font-weight: bold;
 	box-shadow: 2px 15px 30px rgb(187, 187, 189);
 	margin-bottom: 14px;
+	margin-top: 28px;
+	
 }
 
 .proceed-button:hover {
@@ -121,9 +123,9 @@ h2 {
 
 .annual-plan {
 	margin: 24px 0px;
-	padding: 18px;
 	background: hsl(225, 100%, 98%);
 	border-radius: 10px;
+	padding: 20px 0px 20px 20px;
 }
 
 .flex-container {
@@ -135,7 +137,7 @@ h2 {
 	font-weight: 900;
 	color: hsl(223, 47%, 23%);
 	margin: 0px;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 .price {
@@ -144,6 +146,6 @@ h2 {
 }
 
 .plan-block {
-	margin: 0px 114px 0px 14px;
-	font-size: 14px;
+	margin: 0px 109px 0px 14px;
+	font-size: 16px;
 }
